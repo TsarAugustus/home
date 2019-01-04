@@ -1,6 +1,33 @@
 html
   head
-  script(src="./scripts/main.min.js")
-  link(rel="stylesheet", href="./styles/main.min.css")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    script(src="./scripts/main.min.js")
+    link(rel="stylesheet", href="./styles/main.min.css")
+    linl(rel="stylesheet", href="./styles/normalize.css")
+  
   body
-    h1 test
+    //- nav
+    //-   ul
+    //-     li
+    //-       a(href="/", class="home") Home
+    //-     span •
+    //-     li
+    //-       a Landing
+    //-     span •
+    //-     li
+    //-       a About
+    //-     span •
+    //-     li 
+    //-       a Contact
+    div.page.landing
+      .intro
+        h1 Hello There
+        p I did stuff once
+        p lorem ipsum or whatever the fuck its called
+    div.page.about
+      .content
+          .info
+            h1 About Me
+            p What up dogs
+            p Tejb here
+    div.page.contact

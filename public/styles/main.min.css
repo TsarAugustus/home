@@ -1,2 +1,41 @@
 * {
-  background-color: red; }
+  margin: 0px; }
+
+nav {
+  background-color: #303841; }
+  nav ul {
+    list-style-type: none;
+    text-align: center; }
+    nav ul li {
+      margin-left: 1em;
+      margin-right: 1em; }
+      nav ul li a {
+        text-decoration: none;
+        color: #00adb5; }
+
+.page {
+  height: 100vh; }
+
+.landing {
+  background: linear-gradient(26deg, #00adb5 0%, #00adb5 50%, transparent 26%);
+  text-align: center; }
+  .landing .intro {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); }
+
+.about {
+  background: linear-gradient(155deg, #00adb5 0%, #00adb5 50%, transparent 26%); }
+  .about .content {
+    text-align: center;
+    height: 70vh;
+    width: 50%;
+    margin: auto;
+    background-color: #303841;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
+.contact {
+  background-color: #gray; }

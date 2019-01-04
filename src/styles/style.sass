@@ -1,2 +1,50 @@
+$dark: #303841
+$blue: #00adb5
+$white: #eeeeee
+$orange: #ff5722
+
+@mixin vertical-align
+  position: relative
+  top: 50%
+  transform: translateY(-50%)
+
 *
-  background-color: red
+  margin: 0px
+
+nav
+  background-color: $dark
+  ul
+    // background-color: gray
+    list-style-type: none
+    text-align: center
+    li
+      // display: inline
+      margin-left: 1em
+      margin-right: 1em
+      a
+        text-decoration: none
+        color: $blue
+.page
+  height: 100vh
+.landing
+  // background-color: $white
+  // background: linear-gradient(165deg, $dark 0%, $dark 40%, transparent 26%)
+  background: linear-gradient(26deg, $blue 0%, $blue 50%, transparent 26%)
+  text-align: center
+  .intro
+    @include vertical-align
+.about
+  // background-color: $dark
+  background: linear-gradient(155deg, $blue 0%, $blue 50%, transparent 26%)
+  .content
+    text-align: center
+    height: 70vh
+    width: 50%
+    margin: auto
+    background-color: $dark
+    border-radius: 1em
+    display: flex
+    align-items: center
+    justify-content: center
+.contact
+  background-color: #gray
